@@ -164,7 +164,7 @@ img:hover {
 
 .project-title:hover {
     color: #E71D36;
-    text-shadow: 0 0 12px #000;
+    text-shadow: 0 0 .25px #000;
 }
 
 .contact-section {
