@@ -82,7 +82,7 @@ html {
 .welcome-section > p {
     color: black;
     font-size: 2rem;
-    /* text-shadow: 4px 4px 15px #000; */
+    text-shadow: 0 0 2px #fff;
 }
 
 body {
@@ -160,11 +160,12 @@ img:hover {
 .project-title {
     color: black;
     padding-top: 10px;
+    text-shadow: 0 0 5px #fff;
 }
 
 .project-title:hover {
     color: #E71D36;
-    text-shadow: 0 0 .25px #000;
+    text-shadow: 0 0 5px #fff;
 }
 
 .contact-section {
@@ -197,10 +198,12 @@ img:hover {
     padding: 0 1rem;
     margin: 2rem 2rem;
     margin-bottom: 4rem;
+    text-shadow: 0 0 1px #000;
 }
 
 .contact-details:hover {
     color: #2EC4B6;
+    text-shadow: 0 0 1px #000;
 }
 
 @media (max-width: 650px) {
