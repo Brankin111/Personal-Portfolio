@@ -157,7 +157,7 @@ img:hover {
 .contact-section-header {
     text-shadow: 5px 8px 8px #000;
     max-width: 640px;
-    margin: 2rem auto 2rem auto;
+    margin: 2rem auto 1rem;
     border-bottom: 0.2rem solid #E71D36;
     ;
 }
@@ -168,12 +168,15 @@ img:hover {
 }
 
 .contact-links a {
-    font-size: 2rem;
+    font-size: 2.25rem;
     color: #E71D36;
     padding: 0 1rem;
-    margin: 2rem 2rem;
-    margin-bottom: 4rem;
+    margin: 2rem;
     text-shadow: 0 0 1px #000;
+}
+
+.fa {
+    display: block;
 }
 
 .contact-details:hover {

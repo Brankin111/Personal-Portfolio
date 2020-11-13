@@ -1,16 +1,23 @@
-@media (max-width: 650px) {
-    nav > ul {
-        flex-direction: column;
+@media (max-width: 615px) {
+    .nav {
+        display: flex;
+        justify-content: center;
+    }
+
+    .nav > ul {
         text-align: center;
         align-items: center;
-        position: relative;
+        margin: 0;
     }
 
     .nav-list a {
-        font-size: 85%;
-        padding: 0 0;
+        font-size: 95%;
+        padding: 0;
+        margin: 15px;
     }
+}
 
+@media (max-width: 650px) {
     .welcome-section {
         flex-wrap: wrap;
     }
@@ -19,12 +26,16 @@
         flex-direction: column;
         justify-content: center;
         text-align: center;
-        padding-bottom: 9rem;
+        padding-bottom: 15px;
     }
 
     .contact-links a {
         justify-content: center;
         text-align: center;
         margin: 15px;
+    }
+
+    .fa {
+        display: inline;
     }
 }
