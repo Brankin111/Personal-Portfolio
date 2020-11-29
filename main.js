@@ -30,10 +30,10 @@ gsap.from('.gsap-heading', {
 gsap.from('.projects-grid', {
     scrollTrigger: {
         trigger: '.projects-grid',
-        toggleActions: 'restart pause resume restart',
+        toggleActions: 'play reverse play reverse',
     },
     duration: 2.5,
     //    opacity: 0,
-    x: '100%',
+    x: '150%',
     delay: .25,
 })
