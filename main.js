@@ -31,6 +31,8 @@ gsap.from('.projects-grid', {
     scrollTrigger: {
         trigger: '.projects-grid',
         toggleActions: 'play reverse play reverse',
+        start: 'top 80%',
+        //        markers: true,
     },
     duration: 2.5,
     //    opacity: 0,
