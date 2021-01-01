@@ -1,4 +1,4 @@
-@media (max-width: 615px) {
+@media (max-width: 650px) {
     .nav {
         display: flex;
         justify-content: center;
@@ -17,7 +17,7 @@
     }
 }
 
-@media (max-width: 650px) {
+@media (max-width: 950px) {
     .welcome-section {
         flex-wrap: wrap;
     }
