@@ -34,8 +34,8 @@ gsap.from('.projects-grid', {
         start: 'top 80%',
         //        markers: true,
     },
-    duration: 2.5,
+    duration: 2,
     //    opacity: 0,
     x: '150%',
-    delay: .25,
+    //delay: .25,
 })
